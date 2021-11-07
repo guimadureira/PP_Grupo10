@@ -12,6 +12,7 @@ https://github.com/guimadureira/executaveisPG
 **Para a execução no Windows**
 - Selecione a pasta "exec" no download feito do repositório.
 - Apenas execute o arquivo "PP_Grupo10.exe"
+
 **Para a execução no linux**
 - Vá até a pasta dos arquivos, selecione a pasta "execlinux", já dentro da pasta, clique com o botao direto no explorador de arquivos e selecione "Abrir no terminal" (também é possível abrir o terminal primeiro e navegar até a pasta dos arquivos)
 - Agora que a pasta certa está selecionada, digite no terminal "chmod +x projetoPG.x86_64"
