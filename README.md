@@ -8,6 +8,7 @@ Nosso projeto tem movimento na câmera principal, sendo assim:
 Para não ser necessário utilizar a IDE do Unity para executar os programas, nós fizemos versões executáveis do programa para o Windows e o Linux (ambos 32 e 64 bits).
 Esses executáveis também foram colocados no github, mas em outro repositório para melhor organização, o link é:
 https://github.com/guimadureira/executaveisPG
+
 **Para a execução no Windows**
 - Selecione a pasta "exec" no download feito do repositório.
 - Apenas execute o arquivo "PP_Grupo10.exe"
