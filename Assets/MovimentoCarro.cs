@@ -38,7 +38,7 @@ public class MovimentoCarro : MonoBehaviour
     void Update()
     {
 		//aumenta a distancia percorrida por uma velociadade(1)
-        alpha += 1;
+        alpha += 130*Time.deltaTime;
 		
 		//atualiza a posição do objeto para o novo alpha
 		X = x + (a * (float)System.Math.Cos(alpha*0.005));

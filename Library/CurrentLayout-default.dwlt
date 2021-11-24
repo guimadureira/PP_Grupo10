@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 678, y: 492}
+  m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 13791
+  controlID: 19
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1043
     height: 635
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 13727
+  controlID: 20
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1043
     height: 364
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 13728
+  controlID: 21
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b4410000
-      m_LastClickedID: 16820
-      m_ExpandedIDs: a8f8ffffc0f8ffffd6f9ffff10410000d8410000
+      m_SelectedIDs: bcc2ffff
+      m_LastClickedID: -15684
+      m_ExpandedIDs: 3afbffff643f00004840000096400000f0400000a2420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -174.85347, y: 102.63587, z: 186.81067}
+    m_Target: {x: -1.5899645, y: 1.6913624, z: 8.801238}
     speed: 2
-    m_Value: {x: -174.85347, y: 102.63587, z: 186.81067}
+    m_Value: {x: -1.5899645, y: 1.6913624, z: 8.801238}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -507,13 +507,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07078466, y: 0.91272324, z: -0.17935531, w: 0.36021864}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.07078466, y: 0.91272324, z: -0.17935531, w: 0.36021864}
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 32.555058
+    m_Target: 15.196311
     speed: 2
-    m_Value: 32.555058
+    m_Value: 15.196311
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -584,14 +584,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\gabri\Desktop\Projeto PG2\PP_Grupo10
+  m_LastProjectPath: D:\Unity\PP_Grupo10
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 78}
-    m_SelectedIDs: 5c440000
-    m_LastClickedID: 17500
-    m_ExpandedIDs: 000000005444000056440000584400005a4400005c4400005e44000000ca9a3b
+    m_SelectedIDs: 02430000
+    m_LastClickedID: 17154
+    m_ExpandedIDs: 00000000fa420000fc420000fe42000000430000024300000443000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005444000056440000584400005a4400005c4400005e44000000ca9a3b
+    m_ExpandedIDs: 00000000fa420000fc420000fe420000004300000243000004430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
