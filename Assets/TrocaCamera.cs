@@ -7,6 +7,7 @@ public class TrocaCamera : MonoBehaviour
     public GameObject cam1;
     public GameObject cam2;
     public GameObject cam3;
+    public GameObject cam4;
     private int cont = 0;
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class TrocaCamera : MonoBehaviour
                 cam1.SetActive(false);
                 cam2.SetActive(true);
                 cam3.SetActive(false);
+                cam4.SetActive(false);
                 cont =1;
             }
             else if(cont==1)
@@ -31,13 +33,23 @@ public class TrocaCamera : MonoBehaviour
                 cam1.SetActive(false);
                 cam2.SetActive(false);
                 cam3.SetActive(true);
+                cam4.SetActive(false);
                 cont =2;
+            }
+            else if(cont==2)
+            {
+                cam1.SetActive(false);
+                cam2.SetActive(false);
+                cam3.SetActive(false);
+                cam4.SetActive(true);
+                cont =3;
             }
             else
             {
                 cam1.SetActive(true);
                 cam2.SetActive(false);
                 cam3.SetActive(false);
+                cam4.SetActive(false);
                 cont =0;
             }
         }

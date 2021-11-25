@@ -48,6 +48,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\MovimentoCarro.cs" />
+     <Compile Include="Assets\TrocaCamera.cs" />
+     <Compile Include="Assets\Roda.cs" />
      <Compile Include="Assets\move.cs" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
