@@ -47,6 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\MoveGalinha.cs" />
      <Compile Include="Assets\MovimentoCarro.cs" />
      <Compile Include="Assets\TrocaCamera.cs" />
      <Compile Include="Assets\Roda.cs" />

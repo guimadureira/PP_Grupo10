@@ -32,13 +32,16 @@ public class MoveGalinha : MonoBehaviour
 		//atualiza a posição do objeto para o novo alpha
 		X = x + (10 * (float)System.Math.Cos(alpha*0.005));
 		Z = z + (10 * (float)System.Math.Sin(alpha*0.005));
-		transform.position = new Vector3(X,-1,Z);
+		transform.position = new Vector3(-X,-1,Z);
 		
+        Vector2 vetorDirecao = new Vector2 (X,-Z);
+        vetorDirecao.Normalize();
+
         transform.eulerAngles = new Vector3(
-							transform.eulerAngles.x,
-							transform.eulerAngles.y - 103*Time.deltaTime,
-							transform.eulerAngles.z
-						);
+                transform.eulerAngles.x,
+                (Mathf.Atan2(vetorDirecao.x, vetorDirecao.y) - Mathf.Atan2(1, 0)) * Mathf.Rad2Deg,
+                transform.eulerAngles.z
+        );
 		
 
     }
