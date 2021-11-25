@@ -7,6 +7,8 @@ O movimento na câmera principal é feito da seguinte maneira:
 - As setas do teclado movem para os lados.
 - As teclas W e S movem para frente e para trás respectivamente.
 
+A tecla Tab muda entre as 4 câmeras, mas apenas a primeira câmera principal pode ser movimentada pelo usuário.
+
 ## Executáveis do programa
 Para não ser necessário utilizar a IDE do Unity para executar os programas, nós fizemos versões executáveis do programa para o Windows e o Linux (ambos 32 e 64 bits).
 Esses executáveis também foram colocados no github, mas em outro repositório para melhor organização, o link é:
